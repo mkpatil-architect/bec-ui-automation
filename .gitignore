@@ -1,0 +1,88 @@
+### Java template
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# Generated files
+**/target*/
+test-output/
+**/test-output/*
+src-generated/
+build/
+
+
+
+# IntelliJ files
+*.iml
+.idea/
+
+# Sonar generated files
+.sonar
+
+#log
+log/*.log
+logs/*.log
+**/log/*.log
+**/logs/*.log
+*.log
+*.log.*
+**/test-output/**
+test-output/**
+test-output
+#Elastic search data directory
+**/data/*
+
+**/pom.xml.bak
+*.ipr
+*.iws
+
+
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Created by .ignore support plugin (hsz.mobi)
+
+######################
+# Project Specific
+######################
+/src/main/webapp/assets/styles/main.css
+/src/main/webapp/dist
+
+######################
+# Node
+######################
+/node/**
+**/node_modules/**
+
+######################
+# Bower
+######################
+**/bower_components/**
+
+######################
+# SASS
+######################
+.sass-cache/**
+
+
+
+# Mac files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
